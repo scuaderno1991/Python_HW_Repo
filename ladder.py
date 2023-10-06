@@ -6,7 +6,7 @@ def fib(n):
 def countWays(s):
     return fib(s + 1)
 
-countWays(3)
+
 
 
   
