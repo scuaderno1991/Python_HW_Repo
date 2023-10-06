@@ -32,8 +32,8 @@
 #     return steps[n]
 
 def my_steps(n):
-    if n <= 0:
-        return 0
+    if not isinstance(n, int) or n < 1:
+        return "Invalid input. Please provide a positive integer."
     elif n == 1:
         return 1
     elif n == 2:
