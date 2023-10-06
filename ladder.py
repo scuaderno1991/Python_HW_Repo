@@ -32,7 +32,7 @@
 #     return steps[n]
 
 def my_steps(n):
-    if n<= 1 or n >= 25:
+    if n < 1 or n > 25:
         raise ValueError("Integer is not correct")
     else:    
         if n <= 0:
