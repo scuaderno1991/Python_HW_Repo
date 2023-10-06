@@ -3,8 +3,8 @@ def my_steps(n):
         return n
     return my_steps(n-1) + my_steps(n-2)
    
-def countWays(s):
-    return my_steps(s + 1)
+#def countWays(s):
+    #return my_steps(s + 1)
 
 
 
