@@ -4,7 +4,7 @@ def merge_list(list1, list2):
     sorted_list.extend(list2)
     
     if not isinstance(merge_list, int):
-        raise ValueError("input must be an integer")
+        raise TypeError("input must be an integer")
     else:
         temp = 0
         for i in range(0,len(sorted_list)):
