@@ -11,7 +11,7 @@ def merge_list(list1, list2):
                 temp = sorted_list[min]
                 sorted_list[min] = sorted_list[j]
                 sorted_list[j] = temp
-
+    return sorted_list   
     #print(f"Original List1: {list1} \nOriginal List2: {list2}")
     
     #sorted_list.sort(reverse = False)
