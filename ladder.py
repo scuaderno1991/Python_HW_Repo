@@ -1,10 +1,10 @@
-def fib(n):
+def my_steps(n):
     if n <= 1:
         return n
-    return fib(n-1) + fib(n-2)
+    return my_steps(n-1) + my_steps(n-2)
    
 def countWays(s):
-    return fib(s + 1)
+    return my_steps(s + 1)
 
 
 
