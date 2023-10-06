@@ -25,11 +25,11 @@ def my_steps(n):
     steps[1] = 1
     steps[2] = 2
     
- 
-    for i in range(3, n + 1):
-        steps[i] = steps[i - 1] + steps[i - 2]
+    while 1 < n <= 25: 
+        for i in range(3, n + 1):
+            steps[i] = steps[i - 1] + steps[i - 2]
     
-    return steps[n]
+        return steps[n]
 
 #print(my_steps(2))
   
