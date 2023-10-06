@@ -32,12 +32,15 @@
 #     return steps[n]
 
 def my_steps(n):
-    if not isinstance(n, int) or n < 1:
-        return "Invalid input. Please provide a positive integer."
-    elif n == 1:
-        return 1
-    elif n == 2:
-        return 2
+    if n<= 1 or n >= 25:
+        raise ValueError("Integer is not correct")
+    else:    
+        if n <= 0:
+            return 0
+        elif n == 1:
+            return 1
+        elif n == 2:
+            return 2
 
     # Initialize  to store the number of ways for the previous two steps.
     pre = 2
