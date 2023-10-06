@@ -3,7 +3,7 @@ def merge_list(list1, list2):
     sorted_list.extend(list1)
     sorted_list.extend(list2)
     
-    if (merge_list, int):
+    if not isinstance(merge_list, int):
         raise ValueError("input must be an integer")
     
     temp = 0
