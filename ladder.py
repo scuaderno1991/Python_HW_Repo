@@ -39,7 +39,7 @@ def my_steps(n):
     elif n == 2:
         return 2
 
-    # Initialize variables to store the number of ways for the previous two steps.
+    # Initialize  to store the number of ways for the previous two steps.
     pre = 2
     pre1 = 1
 
