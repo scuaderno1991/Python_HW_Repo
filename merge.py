@@ -12,12 +12,12 @@ def merge_list(list1, list2):
                 sorted_list[min] = sorted_list[j]
                 sorted_list[j] = temp
 
-    print(f"Original List1: {list1} \nOriginal List2: {list2}")
+    #print(f"Original List1: {list1} \nOriginal List2: {list2}")
     
     #sorted_list.sort(reverse = False)
-    print(f"Sorted List: {sorted_list}")
+    #print(f"Sorted List: {sorted_list}")
     
-list1 = [10,78,99,4,8,2]
-list2 = [15,3,80,5,6]
+#list1 = [10,78,99,4,8,2]
+#list2 = [15,3,80,5,6]
 
-merge_list(list1,list2)
+#merge_list(list1,list2)
