@@ -24,8 +24,8 @@ class Square(Base):
         
         """
 class Circle(Base):
-    def __init__(self,x,size):
-        super().__init__(x,x,size)
+    def __init__(self,x):
+        super().__init__(x,x)
         
     def shape(self):
         print("This is a circle")
@@ -33,7 +33,7 @@ class Circle(Base):
         
     def draw(self):
         return f""" ({self.x}, {self.y}) 
-        {self.size}
+        
           , - ~ ~ ~ - ,
      , '                  ' ,
     ,                         ,
