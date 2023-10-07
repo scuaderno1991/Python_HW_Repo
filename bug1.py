@@ -4,14 +4,14 @@ class Base:
          self.y = y
          self.size = size
 class Square(Base):
-        def __init__(self,x,y,size):
-            super().__init__(x,y,size)
+        def __init__(self,x,y):
+            super().__init__(x,y)
             
         def shape(self):
             print("This is a square")
             
         def draw(self):
-            return f""" ({self.x}, {self.y}, {self.size})
+            return f""" ({self.x}, {self.y})
         __________________________
         |                        |
         |                        |
