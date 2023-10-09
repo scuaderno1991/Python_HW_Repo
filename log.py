@@ -1,9 +1,9 @@
 import time
 def timestamp(func):
     def wrapper():
-        print(time.ctim())
+        print(time.ctime())
         func()
-        return wrapper
+    return wrapper
 
 # @timestamp
 # def hi():
