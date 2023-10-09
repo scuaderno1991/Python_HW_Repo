@@ -28,7 +28,7 @@ class Circle(Base):
         super().__init__(x,y,size)
         
     def shape(self):
-        print("This is a circle")
+        return f"This is a circle"
         
         
     def draw(self):
