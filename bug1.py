@@ -3,26 +3,26 @@ class Base:
          self.x = x
          self.y = y
          self.size = size
-class Square(Base):
-        def __init__(self,x,y):
-            super().__init__(x,y)
+# class Square(Base):
+#         def __init__(self,x,y):
+#             super().__init__(x,y)
             
-        def shape(self):
-            return f"This is a square"
+#         def shape(self):
+#             return f"This is a square"
         
-        def draw(self):
-            return f""" ({self.x}, {self.y})
-        __________________________
-        |                        |
-        |                        |
-        |                        |
-        |                        |
-        |                        |
-        |                        |
-        |                        |
-        |________________________|
+#         def draw(self):
+#             return f""" ({self.x}, {self.y})
+#         __________________________
+#         |                        |
+#         |                        |
+#         |                        |
+#         |                        |
+#         |                        |
+#         |                        |
+#         |                        |
+#         |________________________|
         
-        """
+#         """
 class Circle(Base):
     def __init__(self,x,y,size):
         super().__init__(x,y,size)
