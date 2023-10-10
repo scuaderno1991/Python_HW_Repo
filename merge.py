@@ -6,8 +6,7 @@ def merge_list(list1, list2):
     #     # Handle the TypeError if list1 or list2 is not a list
     #     raise TypeError("Both inputs must be lists.")
     
-    if not isinstance(list1, int) or not isinstance(list2, int):
-        raise TypeError("Both inputs must be lists.")
+
     
     sorted_list = []
     sorted_list.extend(list1)
@@ -15,6 +14,8 @@ def merge_list(list1, list2):
     
     temp = 0
     for i in range(0,len(sorted_list)):
+        if not isinstance(sorted_list, int):
+            raise TypeError("Both inputs must be lists.")
         min = i 
         for j in range(0,len(sorted_list)):
             if sorted_list[min] < sorted_list[j]:
