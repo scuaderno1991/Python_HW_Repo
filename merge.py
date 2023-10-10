@@ -14,7 +14,7 @@ def merge_list(list1, list2):
     
     temp = 0
     for i in range(0,len(sorted_list)):
-        if not isinstance(sorted_list, int):
+        if not isinstance(sorted_list[i], int):
             raise TypeError("Both inputs must be lists.")
         min = i 
         for j in range(0,len(sorted_list)):
