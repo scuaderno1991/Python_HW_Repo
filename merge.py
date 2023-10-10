@@ -1,13 +1,13 @@
 def merge_list(list1, list2):
-    try:
-        # Attempt to concatenate the lists
-        sorted_list = list1 + list2
-    except TypeError:
-        # Handle the TypeError if list1 or list2 is not a list
-        raise TypeError("Both inputs must be lists.")
+    # try:
+    #     # Attempt to concatenate the lists
+    #     sorted_list = list1 + list2
+    # except TypeError:
+    #     # Handle the TypeError if list1 or list2 is not a list
+    #     raise TypeError("Both inputs must be lists.")
     
-    #if not isinstance(list1, int) or not isinstance(list2, int):
-        #raise TypeError("Both inputs must be lists.")
+    if not isinstance(list1, int) or not isinstance(list2, int):
+        raise TypeError("Both inputs must be lists.")
     
     sorted_list = []
     sorted_list.extend(list1)
