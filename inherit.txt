@@ -1,0 +1,14 @@
+Inheritance is important because it allows us to define a class that can be used by many data types. 
+These properties of the heierarch class can be used to share set of properties 
+by deriving a class by another class. We are able to have code reusability,
+ abstraction, and polymorphism, which makes inheritance extremly flexible. 
+ Use . 
+    One use of inheritance is code reuability, where we are able to reuse the exsiting code
+ by creating a class that will inherit the attributes from the parent class. For example, 
+ if e have a Vehicle base class, we know that all cars, trucks, and motorcycles will have have 
+ an ignition start and stop, therefore we can inherite all these attributes from the base class 
+ vehicle. 
+    Another use case is an important concept of polymorphims, which allows us to derive 
+    objects fromt that class. For example, we can create a fucntion called shape, that will accept
+    other shapes like circle, square, and rectangle. We can call functions like area  without needing
+    to know the subclass, which is very flexible. 
