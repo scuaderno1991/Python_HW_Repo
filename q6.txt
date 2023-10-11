@@ -1,0 +1,12 @@
+1. No, the variable a does not change after the function call due to the modification inside increment int a. 
+This is due to the fact that Python's immutable integers cannot have their value modified. Hence, when someval += 1 is used
+inside the function, a new integer object with a value of 33 is produced, but the variable an outside the function still refers 
+to the initial 32 integer object.
+
+2. Correct, after calling the function, the variable b is changed by the change inside increment int b. 
+This is so because b is a changeable list. The first entry of the list is changed when someval[0] += 1 is used inside the method. 
+Because b points to the same list object, the change is also apparent outside the function.
+
+3. These differ due to the fact that lists and integers are different types of objects in Python and have different mutability characteristics. Lists are mutable,
+which means that operations on a list truly change the original list object, whereas integers are immutable, 
+which means that each operation on an integer actually creates a new integer object.
