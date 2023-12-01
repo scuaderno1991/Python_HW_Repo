@@ -5,6 +5,10 @@ def allcaps(func):
         if isinstance(res,list):
             uppercase_list = [s.upper() for s in res]
             return uppercase_list
+        elif isinstance(res, str):
+            words = res.split()
+            uppercase_words = [word.upper() for word in words]
+            return ' '.join(uppercase_words)
         else:
             return res
 
