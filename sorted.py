@@ -1,4 +1,4 @@
-def sort_dictionary(input_dict):
+def reverse_sort_dictionary(input_dict):
     item = list(input_dict.items())
     n = len(item)
     
@@ -17,5 +17,5 @@ def sort_dictionary(input_dict):
     return sort_tuples
 
 myDict = {'Tom': (5464512,24), 'Sara' : (5446987, 32), 'Mary': (1557896,20)}
-sorted_dict = sort_dictionary(myDict)
+sorted_dict = reverse_sort_dictionary(myDict)
 print(sorted_dict)
